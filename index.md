@@ -3,6 +3,8 @@
 ### Task Overview
 We invite researchers and practitioners to participate in the **Multi-Domain Detection of AI-Generated Text (M-DAIGT) Shared Task**, which focuses on detecting AI-generated text across multiple domains, specifically news articles and academic writing. With the growing prevalence of large language models, distinguishing human-written content from AI-generated text has become a critical challenge for information integrity and academic honesty.
 
+---
+
 ### Subtasks
 Participants are encouraged to develop models for one or both of the following subtasks:
 
@@ -15,7 +17,7 @@ Participants are encouraged to develop models for one or both of the following s
    - Binary classification of academic texts as either human-written or AI-generated
    - Includes student coursework and research papers
    - Spans multiple academic disciplines and writing styles
-
+---
 ### Dataset
 The dataset for this shared task consists of:
 - **Human-written content** sourced from verified news platforms and academic writing samples (with appropriate permissions)
@@ -32,6 +34,8 @@ Submissions will be evaluated using the following classification metrics:
 - **Primary Metrics:** Accuracy, F1-score, Precision, Recall
 - **Secondary Analysis:** Model robustness across different text lengths, writing styles, topic domains, and generation models
 
+---
+
 ### Timeline
 
 - **Training Data Ready:** March 15, 2024
@@ -44,13 +48,14 @@ Submissions will be evaluated using the following classification metrics:
 - **Camera-Ready Due:** June 15, 2025 (hard deadline; cannot be postponed)
 - **Shared Task Presentation Co-located with RANLP 2025:** September 11 and September 12, 2025
 
-
+---
 
 ### How to Participate
 Participants must:
 - Register for the shared task through our website 
 - Follow updates via our mailing list and Slack channel
 - Submit their models following the evaluation protocol and deadlines
+  ---
 
 ### Organizers
 - **Salima Lamsiyah**, University of Luxembourg, Luxembourg  
@@ -60,7 +65,9 @@ Participants must:
 - **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University, Morocco  
 - **Samir El Amrany**, University of Luxembourg, Luxembourg  
 - **Salmane Chafik**, Mohammed VI Polytechnic University, Morocco  
-- **Hicham Hammouchi**, University of Luxembourg, Luxembourg  
+- **Hicham Hammouchi**, University of Luxembourg, Luxembourg
+  
+---
 
 ### Resources Provided
 Participants will have access to:
@@ -69,19 +76,21 @@ Participants will have access to:
 - **Submission system** via CodaLab
 - **Evaluation scripts** and submission format examples
 - **Task documentation and updates** through GitHub and Slack
+  
+---
 
 ### Expected Impact
 This shared task aims to:
 1. **Advance research** in AI-generated text detection across multiple domains
 2. **Develop real-world applications** to support news organizations and academic integrity initiatives
 3. **Establish a benchmark dataset** for AI text detection research
-
+---
 ### Baseline Systems
 To support participants, we will provide:
 1. **Simple Statistical Baseline** (TF-IDF + SVM)
 2. **Transformer-Based Baseline** (RoBERTa)
 3. **Evaluation scripts** and sample submission formats
-
+---
 ### Novelty and Significance
 This shared task differentiates itself from existing work by:
 1. Covering two different domains for cross-domain analysis
@@ -89,8 +98,8 @@ This shared task differentiates itself from existing work by:
 3. Using multiple AI generation sources for content diversity
 4. Addressing real-world applications in media and academia
 
-
-## Logistics and Support
+---
+### Logistics and Support
 - **Website Hosting**: GitHub Pages
 - **Submission System**: Codalab
 - **Communication Channels**:
