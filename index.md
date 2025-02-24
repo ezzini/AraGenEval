@@ -3,8 +3,6 @@
 ### Task Overview
 We invite researchers and practitioners to participate in the **Multi-Domain Detection of AI-Generated Text (M-DAIGT) Shared Task**, which focuses on detecting AI-generated text across multiple domains, specifically news articles and academic writing. With the growing prevalence of large language models, distinguishing human-written content from AI-generated text has become a critical challenge for information integrity and academic honesty.
 
----
-
 ### Subtasks
 Participants are encouraged to develop models for one or both of the following subtasks:
 
@@ -17,7 +15,7 @@ Participants are encouraged to develop models for one or both of the following s
    - Binary classification of academic texts as either human-written or AI-generated
    - Includes student coursework and research papers
    - Spans multiple academic disciplines and writing styles
----
+
 ### Dataset
 The dataset for this shared task consists of:
 - **Human-written content** sourced from verified news platforms and academic writing samples (with appropriate permissions)
@@ -34,8 +32,6 @@ Submissions will be evaluated using the following classification metrics:
 - **Primary Metrics:** Accuracy, F1-score, Precision, Recall
 - **Secondary Analysis:** Model robustness across different text lengths, writing styles, topic domains, and generation models
 
----
-
 ### Timeline
 
 - **Training Data Ready:** March 15, 2024
@@ -47,8 +43,6 @@ Submissions will be evaluated using the following classification metrics:
 - **Task Overview Paper Due:** May 31, 2025
 - **Camera-Ready Due:** June 15, 2025 (hard deadline; cannot be postponed)
 - **Shared Task Presentation Co-located with RANLP 2025:** September 11 and September 12, 2025
-
----
 
 ### How to Participate
 Participants must:
