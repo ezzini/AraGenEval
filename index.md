@@ -1,4 +1,4 @@
-# Call for Participation: Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
+Call for Participation: Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
 
 
 ### Task Overview
