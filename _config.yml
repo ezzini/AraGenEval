@@ -1,1 +1,7 @@
+title: "M-DAIGT"
+description: "Call for Participation: Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)"
+theme: jekyll-theme-cayman
+markdown:
+  kramdown:
+    auto_ids: false  # This disables automatic heading IDs
 
