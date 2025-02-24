@@ -68,20 +68,18 @@ Participants will have access to:
 - **Evaluation scripts** and submission format examples
 - **Task documentation and updates** through GitHub and Slack
   
----
-
 ### Expected Impact
 This shared task aims to:
 1. **Advance research** in AI-generated text detection across multiple domains
 2. **Develop real-world applications** to support news organizations and academic integrity initiatives
 3. **Establish a benchmark dataset** for AI text detection research
----
+
 ### Baseline Systems
 To support participants, we will provide:
 1. **Simple Statistical Baseline** (TF-IDF + SVM)
 2. **Transformer-Based Baseline** (RoBERTa)
 3. **Evaluation scripts** and sample submission formats
----
+
 ### Novelty and Significance
 This shared task differentiates itself from existing work by:
 1. Covering two different domains for cross-domain analysis
@@ -89,7 +87,6 @@ This shared task differentiates itself from existing work by:
 3. Using multiple AI generation sources for content diversity
 4. Addressing real-world applications in media and academia
 
----
 ### Logistics and Support
 - **Website Hosting**: GitHub Pages
 - **Submission System**: Codalab
@@ -99,7 +96,6 @@ This shared task differentiates itself from existing work by:
   - GitHub repository
 - **Regular updates and participant support**
 
----
 
 ### 💡 Stay Updated
 - Official **GitHub Repository**: [To be announced]
