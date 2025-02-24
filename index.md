@@ -1,5 +1,4 @@
 # Call for Participation: Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
-![image](https://github.com/user-attachments/assets/21a299b1-f67a-4d51-9936-8d31593840a4)
 
 
 ### Task Overview
