@@ -48,7 +48,7 @@ Submissions will be evaluated using the following classification metrics:
 
 ### How to Participate
 Participants must:
-- Register for the shared task through our website [link]
+- Register for the shared task through our website 
 - Follow updates via our mailing list and Slack channel
 - Submit their models following the evaluation protocol and deadlines
 
@@ -84,7 +84,7 @@ To support participants, we will provide:
 
 ### Novelty and Significance
 This shared task differentiates itself from existing work by:
-1. Covering multiple domains for cross-domain analysis
+1. Covering two different domains for cross-domain analysis
 2. Conducting comprehensive evaluations across various text types and lengths
 3. Using multiple AI generation sources for content diversity
 4. Addressing real-world applications in media and academia
