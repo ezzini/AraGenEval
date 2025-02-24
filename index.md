@@ -89,12 +89,23 @@ This shared task differentiates itself from existing work by:
 3. Using multiple AI generation sources for content diversity
 4. Addressing real-world applications in media and academia
 
-### Logistics & Support
-- **Task website** hosting on GitHub
-- **Submission system** via CodaLab
-- **Community engagement** through Slack, mailing lists, and GitHub discussions
-- **Regular updates** and participant support sessions
 
-**Join us in tackling the challenge of AI-generated text detection!** For more details and registration.
+## Logistics and Support
+- **Website Hosting**: GitHub Pages
+- **Submission System**: Codalab
+- **Communication Channels**:
+  - Slack workspace
+  - Mailing list
+  - GitHub repository
+- **Regular updates and participant support**
+
+---
+
+### 💡 Stay Updated
+- Official **GitHub Repository**: [To be announced]
+- Join our **Slack community**: [To be announced]
+- Follow the latest **announcements and updates** on this page!
 
 ### Anti-Harassment policy
+We uphold the [ACL Anti-Harassment Policy](https://www.aclweb.org/portal/content/anti-harassment-policy), and participants in this shared task are encouraged to reach out with any concerns or questions to any of the shared task organizers.
+
