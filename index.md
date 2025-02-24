@@ -49,7 +49,6 @@ Participants must:
 - Register for the shared task through our website 
 - Follow updates via our mailing list and Slack channel
 - Submit their models following the evaluation protocol and deadlines
-  ---
 
 ### Organizers
 - **Salima Lamsiyah**, University of Luxembourg, Luxembourg  
@@ -61,8 +60,6 @@ Participants must:
 - **Salmane Chafik**, Mohammed VI Polytechnic University, Morocco  
 - **Hicham Hammouchi**, University of Luxembourg, Luxembourg
   
----
-
 ### Resources Provided
 Participants will have access to:
 - **Computing resources** for dataset generation and baseline models
