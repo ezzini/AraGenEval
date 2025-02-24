@@ -96,6 +96,6 @@ This shared task differentiates itself from existing work by:
 - **Community engagement** through Slack, mailing lists, and GitHub discussions
 - **Regular updates** and participant support sessions
 
-**Join us in tackling the challenge of AI-generated text detection!** For more details and registration, visit [website link].
+**Join us in tackling the challenge of AI-generated text detection!** For more details and registration.
 
-
+### Anti-Harassment policy
