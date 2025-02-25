@@ -1,6 +1,10 @@
 title: "M-DAIGT"
 #description: "Call for Participation: Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)"
 theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: "https://docs.google.com/forms/d/e/1FAIpQLSextZDY7qjGRJSLCBNISPcBNQZwusRWKvyxb9uuBxyJddJfdA/viewform?usp=header"
+  repository_name: "Register Now"
 markdown:
   kramdown:
     auto_ids: false  # This disables automatic heading IDs
