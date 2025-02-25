@@ -52,7 +52,7 @@ Participants must:
 
 ### Organizers
 - **Salima Lamsiyah**, University of Luxembourg, Luxembourg  
-- **Saad Ezzini**, Lancaster University, Lancaster, UK  
+- **Saad Ezzini**, King Fahd University of Petroleum and Minerals, Saudi Arabia  
 - **Abdelkader Elmahdaouy**, Mohammed VI Polytechnic University, Morocco  
 - **Hamza Alami**, Sidi Mohamed Ben Abdellah University, Morocco  
 - **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University, Morocco  
