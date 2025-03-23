@@ -1,4 +1,4 @@
-# Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
+![image](https://github.com/user-attachments/assets/ab76fa0b-ab94-474d-bf20-66bf028bf8cd)# Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
 
 ### Task Overview
 We invite researchers and practitioners to participate in the **Multi-Domain Detection of AI-Generated Text (M-DAIGT) Shared Task**, which focuses on detecting AI-generated text across multiple domains, specifically news articles and academic writing. With the growing prevalence of large language models, distinguishing human-written content from AI-generated text has become a critical challenge for information integrity and academic honesty.
@@ -97,8 +97,8 @@ This shared task differentiates itself from existing work by:
 - **Regular updates and participant support**
 
 
-### 💡 Stay Updated
-- Official **GitHub Repository**: [To be announced]
+### Stay Updated
+- Official **GitHub Repository**: https://github.com/ezzini/M-DAIGT
 - Join our **Slack community**: [To be announced]
 - Follow the latest **announcements and updates** on this page!
 
