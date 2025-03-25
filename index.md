@@ -34,14 +34,13 @@ Submissions will be evaluated using the following classification metrics:
 
 ### Timeline
 
-- **Training Data Ready:** March 15, 2024
-- **Evaluation Data Ready:** April 15, 2025
-- **Evaluation Starts:** April 22, 2025
-- **Evaluation Ends:** April 30, 2025 (latest date; task organizers may choose an earlier date)
-- **Paper Submission Due:** May 16, 2025
-- **Notification to Authors:** May 31, 2025
-- **Task Overview Paper Due:** May 31, 2025
-- **Camera-Ready Due:** June 15, 2025 (hard deadline; cannot be postponed)
+- **Training Data Ready:** March 31, 2025
+- **Evaluation Data Ready:** April 30, 2025
+- **Evaluation Period:** May 2–15, 2025
+- **Paper Submission Due:** May 25, 2025
+- **Notification to Authors:** June 15, 2025
+- **Task Overview Paper Due:** June 15, 2025
+- **Camera-Ready Due:** June 30, 2025 (hard deadline; cannot be postponed)
 - **Shared Task Presentation Co-located with RANLP 2025:** September 11 and September 12, 2025
 
 ### How to Participate
