@@ -42,6 +42,8 @@ Submissions will be evaluated using the following classification metrics:
 - **Task Overview Paper Due:** June 15, 2025
 - **Camera-Ready Due:** June 30, 2025 (hard deadline; cannot be postponed)
 - **Shared Task Presentation Co-located with RANLP 2025:** September 11 and September 12, 2025
+  
+(All deadlines are 11:59 PM UTC-12:00, "Anywhere on Earth")
 
 ### How to Participate
 Participants must:
