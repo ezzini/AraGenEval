@@ -35,9 +35,10 @@ Submissions will be evaluated using the following classification metrics:
 ### Timeline
 
 - **Training Data Ready:** March 31, 2025
-- **Evaluation Data Ready:** April 30, 2025
-- **Evaluation Period:** May 2–15, 2025
-- **Paper Submission Due:** May 25, 2025
+- **Dev Data Ready:** May 1, 2025
+- **Registration Deadline:** May 8, 2025
+- **Evaluation Period:** May 8–15, 2025
+- **Paper Submission Due:** June 1, 2025
 - **Notification to Authors:** June 15, 2025
 - **Task Overview Paper Due:** June 15, 2025
 - **Camera-Ready Due:** June 30, 2025 (hard deadline; cannot be postponed)
@@ -48,7 +49,7 @@ Submissions will be evaluated using the following classification metrics:
 ### How to Participate
 Participants must:
 - Register for the shared task through our website 
-- Follow updates via our mailing list and Slack channel
+- Follow updates via our mailing list
 - Submit their models following the evaluation protocol and deadlines
 
 ### Organizers
