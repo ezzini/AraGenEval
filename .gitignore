@@ -1,3 +1,10 @@
+# Virtual Environments
 env
+myenv
+venv
+
+# Outputs
 baseline/output
+
+# Python Cache
 */*/__pycache__/
