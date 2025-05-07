@@ -1,1 +1,3 @@
 env
+baseline/output
+*/*/__pycache__/
