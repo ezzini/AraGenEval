@@ -1,94 +1,115 @@
-# Shared Task on Multi-Domain Detection of AI-Generated Text (M-DAIGT)
+# **AraGenEval**: Arabic Authorship Style Transfer and AI Generated Text Detection Shared Task 
 
-### Hosted with [RANLP 2025](https://ranlp.org/ranlp2025/)
-### Task Overview
-We invite researchers and practitioners to participate in the **Multi-Domain Detection of AI-Generated Text (M-DAIGT) Shared Task**, which focuses on detecting AI-generated text across multiple domains, specifically news articles and academic writing. With the growing prevalence of large language models, distinguishing human-written content from AI-generated text has become a critical challenge for information integrity and academic honesty.
+### Hosted with [The Internation Conference on ArabicNLP 2025](https://arabicnlp2025.sigarab.org/)
 
-### Subtasks
-Participants are encouraged to develop models for one or both of the following subtasks:
+## 1. Overview of the Shared Task
+The rapid expansion of user-generated content across social media, digital news platforms, and online communication has created a growing demand for sophisticated Natural Language Processing (NLP) techniques to analyze and manipulate writing styles. Unlike general text style analysis [1], which focuses on broad linguistic features, **Authorship Style Transfer (AST)** aims to transform a given text to match the distinctive writing style of a specific author while preserving its original meaning [2]. This contrasts with traditional stylistic analysis, where the goal is to identify and characterize an author’s style rather than actively modify text to conform to it.  
+In addition, recent advances in Arabic-based large language models have made it increasingly difficult to distinguish between human-written and AI-generated Arabic content. We believe that Arabic style identification can help detect such content.  
+This shared task seeks to promote research in Arabic AST, an area that remains relatively underdeveloped compared to other languages. Participants will develop models for one or more of the following subtasks:
+- AI-Generated Text Detection  
+- Authorship Style Transfer  
+- Authorship Identification  
 
-1. **News Article Detection (NAD)**
-   - Binary classification of news articles as either human-written or AI-generated
-   - Evaluation on both full articles and article snippets
-   - Coverage of various news genres, including politics, technology, sports, etc.
+## 2. Motivation
+Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [3, 4] is explored in NLP, the Arabic domain presents distinct challenges:
+- **Linguistic diversity**: Arabic exhibits significant variation, with multiple formal and dialectal forms.  
+- **Contextual dependencies**: Performance shifts depending on the author style, requiring models to capture nuanced contextual cues.  
+- **Limited labeled data**: Large-scale datasets for Arabic style transfer and detection are scarce.  
+Our goal is to inspire researchers to tackle these challenges and enhance style transfer and detection techniques specifically for the Arabic language.
 
-2. **Academic Writing Detection (AWD)**
-   - Binary classification of academic texts as either human-written or AI-generated
-   - Includes student coursework and research papers
-   - Spans multiple academic disciplines and writing styles
+## 3. Data Collection and Creation
 
-### Dataset
-The dataset for this shared task consists of:
-- **Human-written content** sourced from verified news platforms and academic writing samples (with appropriate permissions)
-- **AI-generated content** produced using multiple LLMs (e.g., GPT-3.5, GPT-4, Claude) with varied prompting strategies and generation parameters
+### 3.1 Authorship Style Transfer (Tasks 1 & 2)
+- **Corpus**: 21 authors, 10 publicly accessible books each.  
+- **Segmentation**: Each book divided into semantically coherent paragraphs.  
+- **Parallelization**: GPT-4o mini2 rephrased selected paragraphs into a standardized formal style; pairs limited to ≤ 1900 tokens.  
+- **Splits**: Train / Test / Validation as shown below.
 
-**Dataset Statistics:**
-- **Training set:** 10,000 samples per subtask
-- **Development set:** 2,000 samples per subtask
-- **Test set:** 3,000 samples per subtask
-- **Balanced distribution** of human-written and AI-generated content
+#### Dataset Statistics (Authors 1–11)
 
-### Evaluation Metrics
-Submissions will be evaluated using the following classification metrics:
-- **Primary Metrics:** Accuracy, F1-score, Precision, Recall
-- **Secondary Analysis:** Model robustness across different text lengths, writing styles, topic domains, and generation models
+| Author                  | Train | Test | Val |
+|-------------------------|------:|-----:|----:|
+| Ahmed Amin              | 2892  | 594  | 246 |
+| Ahmed Taymour Pasha     |  804  | 142  |  53 |
+| Ahmed Shawqi            |  596  |  46  |  58 |
+| Ameen Rihani            | 1557  | 624  | 142 |
+| Tharwat Abaza           |  755  | 191  |  90 |
+| Gibran Khalil Gibran    |  748  | 240  |  30 |
+| Jurji Zaydan            | 2762  | 562  | 326 |
+| Hassan Hanafi           | 3735  |1002  | 548 |
+| Robert Barr             | 2680  | 512  |  82 |
+| Salama Moussa           |  984  | 282  | 119 |
+| Taha Hussein            | 2371  | 534  | 253 |
 
-### Timeline
+#### Dataset Statistics (Authors 12–21)
 
-- **Training Data Ready:** March 31, 2025
-- **Dev Data Ready:** May 1, 2025
-- **Registration Deadline:** May 8, 2025
-- **Evaluation Period:** May 8–15, 2025
-- **Paper Submission Due:** June 1, 2025
-- **Notification to Authors:** June 15, 2025
-- **Task Overview Paper Due:** June 15, 2025
-- **Camera-Ready Due:** June 30, 2025 (hard deadline; cannot be postponed)
-- **Shared Task Presentation Co-located with RANLP 2025:** September 11 and September 12, 2025
-  
-(All deadlines are 11:59 PM UTC-12:00, "Anywhere on Earth")
+| Author                    | Train | Test | Val |
+|---------------------------|------:|-----:|----:|
+| Abbas M. Al-Aqqad         | 1820  | 499  | 267 |
+| Abdel Ghaffar Makawi      | 1520  | 464  | 396 |
+| Gustave Le Bon            | 1515  | 358  | 150 |
+| Fouad Zakaria             | 1771  | 294  | 125 |
+| Kamel Kilani              |  399  | 109  |  25 |
+| Mohamed H. Heikal         | 2627  | 492  | 260 |
+| Naguib Mahfouz            | 1630  | 343  | 327 |
+| Nawal El Saadawi          | 1415  | 382  | 295 |
+| William Shakespeare       | 1236  | 358  | 238 |
+| Yusuf Idris               | 1140  | 349  | 120 |
 
-### How to Participate
-Participants must:
-- Register for the shared task through our website 
-- Follow updates via our mailing list
-- Submit their models following the evaluation protocol and deadlines
+### 3.2 AI-Text Detection (Subtask 3)
+- **Human-Written Texts**: Collected from reputable Arabic news sites and verified literary sources; manually curated.  
+- **AI-Generated Texts**: Produced using Arabic-compatible LLMs (e.g., Mistral, GPT-4, LLaMA) under diverse prompting strategies.  
+- **Annotation**: Binary labels (human vs. AI) with domain coverage across news and literature.
 
-### Organizers
-- **Salima Lamsiyah**, University of Luxembourg, Luxembourg  
-- **Saad Ezzini**, King Fahd University of Petroleum and Minerals, Saudi Arabia  
-- **Abdelkader Elmahdaouy**, Mohammed VI Polytechnic University, Morocco  
-- **Hamza Alami**, Sidi Mohamed Ben Abdellah University, Morocco  
-- **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University, Morocco  
-- **Samir El Amrany**, University of Luxembourg, Luxembourg  
-- **Salmane Chafik**, Mohammed VI Polytechnic University, Morocco  
-- **Hicham Hammouchi**, University of Luxembourg, Luxembourg
-  
-### Resources Provided
-Participants will have access to:
-- **Computing resources** for dataset generation and baseline models
-- **Annotation platform** for human verification
-- **Submission system** via CodaLab
-- **Evaluation scripts** and submission format examples
-- **Task documentation and updates** through GitHub and Slack
-  
-### Expected Impact
-This shared task aims to:
-1. **Advance research** in AI-generated text detection across multiple domains
-2. **Develop real-world applications** to support news organizations and academic integrity initiatives
-3. **Establish a benchmark dataset** for AI text detection research
+## 4. Task Description
 
-### Baseline Systems
-To support participants, we will provide:
-1. **Simple Statistical Baseline** (TF-IDF + SVM)
-2. **Transformer-Based Baseline** (RoBERTa)
-3. **Evaluation scripts** and sample submission formats
+### 4.1 Subtask 1: Authorship Style Transfer
+- **Goal**: Transform a formal input text into the style of a specified author while preserving semantics.  
+- **Evaluation**: BLEU, CHRF, COMET, BERTScore F1.
 
-### Novelty and Significance
-This shared task differentiates itself from existing work by:
-1. Covering two different domains for cross-domain analysis
-2. Conducting comprehensive evaluations across various text types and lengths
-3. Using multiple AI generation sources for content diversity
-4. Addressing real-world applications in media and academia
+### 4.2 Subtask 2: Authorship Identification
+- **Goal**: Identify the author of a given text excerpt across diverse genres and periods.  
+- **Evaluation**: Macro-F1, Accuracy.
+
+### 4.3 Subtask 3: AI-Generated Text Detection
+Focused on two domains:
+1. **Arabic News Text Detection (ArabicNewsGen)**
+   - Full-length articles and short excerpts; genres include politics, economy, technology, sports.  
+2. **Arabic Literature Text Detection (ArabicLitGen)**
+   - Literary forms, especially poetry; diverse stylistic and genre expressions.  
+- **Evaluation**: F1-Score (primary), Accuracy (secondary).
+
+## 5. Tentative Timeline
+- **June 1, 2025**: Release of training data  
+- **July 20, 2025**: Release of test data  
+- **July 25, 2025**: End of evaluation cycle (test submissions close)  
+- **July 30, 2025**: Final results released  
+- **August 15, 2025**: System description papers due  
+- **August 25, 2025**: Notification of acceptance  
+- **September 5, 2025**: Camera-ready versions due  
+- **November 5–9, 2025**: Main Conference
+
+## 6. Organizers’ Details
+- **Shadi Abudalfa**, King Fahd University of Petroleum & Minerals  
+- **Saad Ezzini**, King Fahd University of Petroleum & Minerals  
+- **Ahmed Abdelali**, National Center for Artificial Intelligence, Saudi Data & AI Authority  
+- **Salima Lamsiyah**, University of Luxembourg  
+- **Hamzah Luqman**, King Fahd University of Petroleum & Minerals  
+- **Mustafa Jarrar**, Hamad Bin Khalifa University / Birzeit University  
+- **Mo El-Haj**, VinUniversity, Vietnam  
+- **Abdelkader Elmahdaouy**, Mohammed VI Polytechnic University  
+- **Hamza Alami**, Sidi Mohamed Ben Abdellah University  
+- **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University  
+- **Salmane Chafik**, Mohammed VI Polytechnic University, Ben Guerir  
+
+## References
+1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
+2. Shao et al. “Authorship style transfer with inverse transfer data augmentation.” _AI Open_, 5, 2024.  
+3. Patel et al. “Low-Resource Authorship Style Transfer: Can Non-Famous Authors Be Imitated?” _arXiv preprint arXiv:2212.08986_, 2022.  
+4. Horvitz et al. “TinyStyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings.” _arXiv preprint arXiv:2406.15586_, 2024.  
+
+---
+
 
 ### Logistics and Support
 - **Website Hosting**: GitHub Pages
@@ -101,7 +122,7 @@ This shared task differentiates itself from existing work by:
 
 
 ### Stay Updated
-- Official **GitHub Repository**: https://github.com/ezzini/M-DAIGT
+- Official **GitHub Repository**: https://github.com/ezzini/AraGenEval
 - Join our **Slack community**: [To be announced]
 - Follow the latest **announcements and updates** on this page!
 
