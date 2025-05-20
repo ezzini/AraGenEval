@@ -113,7 +113,7 @@ Focused on two domains:
 
 ### Logistics and Support
 - **Website Hosting**: GitHub Pages
-- **Submission System**: Codalab
+- **Submission System**: Codabench
 - **Communication Channels**:
   - Slack workspace
   - Mailing list
