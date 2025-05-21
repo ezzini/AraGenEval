@@ -6,9 +6,9 @@
 The rapid expansion of user-generated content across social media, digital news platforms, and online communication has created a growing demand for sophisticated Natural Language Processing (NLP) techniques to analyze and manipulate writing styles. Unlike general text style analysis [1], which focuses on broad linguistic features, **Authorship Style Transfer (AST)** aims to transform a given text to match the distinctive writing style of a specific author while preserving its original meaning [2]. This contrasts with traditional stylistic analysis, where the goal is to identify and characterize an author’s style rather than actively modify text to conform to it.  
 In addition, recent advances in Arabic-based large language models have made it increasingly difficult to distinguish between human-written and AI-generated Arabic content. We believe that Arabic style identification can help detect such content.  
 This shared task seeks to promote research in Arabic AST, an area that remains relatively underdeveloped compared to other languages. Participants will develop models for one or more of the following subtasks:
-- AI-Generated Text Detection  
-- Authorship Style Transfer  
-- Authorship Identification  
+- AI-Generated Text Detection (Text Generation) 
+- Authorship Style Transfer (Multiclass classification) 
+- Authorship Identification (Binary Classification) 
 
 ## 2. Motivation
 Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [3, 4] is explored in NLP, the Arabic domain presents distinct challenges:
