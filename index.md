@@ -3,15 +3,15 @@
 ### Hosted with [The Internation Conference on ArabicNLP 2025](https://arabicnlp2025.sigarab.org/)
 
 ## 1. Overview of the Shared Task
-The rapid expansion of user-generated content across social media, digital news platforms, and online communication has created a growing demand for sophisticated Natural Language Processing (NLP) techniques to analyze and manipulate writing styles. Unlike general text style analysis [1], which focuses on broad linguistic features, Authorship Style Transfer (AST) aims to transform a given text to match the distinctive writing style of a specific author while preserving its original meaning [2]. This contrasts with traditional stylistic analysis, where the goal is to identify and characterize an author’s style rather than actively modify text to conform to it.  
-In addition, recent advances in Arabic-based large language models have made it increasingly difficult to distinguish between human-written and AI-generated Arabic content. We believe that Arabic style identification can help detect such content.  
+The rapid expansion of user-generated content across social media, digital news platforms, and online communication has created a growing demand for sophisticated Natural Language Processing (NLP) techniques to analyze and manipulate writing styles. Unlike general text style analysis [1], which focuses on broad linguistic features, **Authorship Style Transfer (AST)** aims to transform a given text to match the distinctive writing style of a specific author while preserving its original meaning [2]. This contrasts with traditional stylistic analysis, where the goal is to identify and characterize an author’s style rather than actively modify text to conform to it.  
+In addition, recent advances in Arabic-based large language models have made it increasingly difficult to distinguish between human-written and AI-generated Arabic content [3]. We believe that Arabic style identification can help detect such content.  
 This shared task seeks to promote research in Arabic AST, an area that remains relatively underdeveloped compared to other languages. Participants will develop models for one or more of the following subtasks:
 1) Authorship Style Transfer (Text Generation) 
 2) Authorship Identification (Multiclass Classification) 
 3) AI-Generated Text Detection (Binary Classification) 
 
 ## 2. Motivation
-Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [3, 4] is explored in NLP, the Arabic domain presents distinct challenges:
+Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [4, 5] is explored in NLP, the Arabic domain presents distinct challenges:
 - **Linguistic diversity**: Arabic exhibits significant variation, with multiple formal and dialectal forms.  
 - **Contextual dependencies**: Performance shifts depending on the author style, requiring models to capture nuanced contextual cues.  
 - **Limited labeled data**: Large-scale datasets for Arabic style transfer and detection are scarce.  
@@ -104,9 +104,10 @@ Focused on two domains:
 
 ## References
 1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
-2. Shao et al. “Authorship style transfer with inverse transfer data augmentation.” _AI Open_, 5, 2024.  
-3. Patel et al. “Low-Resource Authorship Style Transfer: Can Non-Famous Authors Be Imitated?” _arXiv preprint arXiv:2212.08986_, 2022.  
-4. Horvitz et al. “TinyStyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings.” _arXiv preprint arXiv:2406.15586_, 2024.  
+2. Shao et al. “Authorship style transfer with inverse transfer data augmentation.” _AI Open_, 5, 2024.
+3. Alghamdi et al. "Distinguishing Arabic GenAI-generated Tweets and Human Tweets utilizing Machine Learning." Engineering, Technology & Applied Science Research, 14(5), 16720-16726, 2024.  
+4. Patel et al. “Low-Resource Authorship Style Transfer: Can Non-Famous Authors Be Imitated?” _arXiv preprint arXiv:2212.08986_, 2022.  
+5. Horvitz et al. “TinyStyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings.” _arXiv preprint arXiv:2406.15586_, 2024.  
 
 ---
 
