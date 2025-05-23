@@ -1,5 +1,3 @@
-# **AraGenEval**: Arabic Authorship Style Transfer and AI Generated Text Detection Shared Task 
-
 ### Guidelines for Participating Teams
 **Q: Who can participate in shared tasks?** <br>
 A: Anyone who wants to can participate, either independently or by forming a team.
@@ -32,10 +30,10 @@ A: Yes, if you register and request the dataset, you agree to submit a paper. It
 A: This is strictly prohibited. You agree to register and submit a paper when requesting the dataset. Abandoning the task after receiving data may result in banning participants from future participation.
 
 **Q: What is the paper format?** <br>
-A: Shared task papers must follow the format for short papers at ArabicNLP 2025. Papers must follow official EMNLP (ACL) LaTeX or Word templates, be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: https://github.com/acl-org/acl-style-files
+A: Shared task papers must follow the format for short papers at ArabicNLP 2025. Papers must follow official EMNLP (ACL) LaTeX or Word templates, be up to 4 pages (excluding unlimited references). Check the dedicated paper submission guidelines URL below for more details: [https://github.com/acl-org/acl-style-files](https://github.com/acl-org/acl-style-files)
 
 **Q: How should the paper title be formatted?** <br>
-A: Use this format: <Team Name> at <Task Name>: <Your Contribution>
+A: Use this format: \<Team Name\> at \<Task Name\>: \<Your Contribution\>
 
 Example: "Scholarly at XYZ Shared Task: LLMs in Detection for Identifying Manipulative Strategies"
 
