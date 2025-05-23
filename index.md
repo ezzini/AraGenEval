@@ -103,6 +103,10 @@ Focused on two domains:
 - **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University  
 - **Salmane Chafik**, Mohammed VI Polytechnic University  
 
+## 7. Participation Guidelines
+- For participation guidelines, please refer to [Participation Guidelines](guidelines.md).
+- Comprehensive instructions for preparing and submitting your paper(s) are also available at the same link.
+
 ## References
 1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
 2. Shao et al. “Authorship style transfer with inverse transfer data augmentation.” _AI Open_, 5, 2024.
