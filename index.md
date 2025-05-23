@@ -105,7 +105,7 @@ Focused on two domains:
 
 ## 7. Participation Guidelines
 - For participation guidelines, please refer to [Participation Guidelines](guidelines.md).
-- Comprehensive instructions for preparing and submitting your paper(s) are also available at the same link.
+- Comprehensive instructions for preparing and submitting your paper(s) are available at [Paper Submission Guidelines](PAPER.md).
 
 ## References
 1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
