@@ -8,16 +8,16 @@
 #### Paper Structure (4 pages maximum + unlimited references)
 **1. Abstract**<br>
 Brief summary of your paper in a few sentences.
-**2. Introduction** 
+**2. Introduction**
 - Task description and importance; mention language(s) covered; cite task overview paper
 - Your main system strategy
 - Key findings, ranking, challenges discovered; include code URL if available (Highly recommended)<br>
-**3. Background**
+<br>**3. Background**
 - Summarize task setup: input/output types (with examples)
 - Dataset details: language, genre, size
 - Tracks participated in (if applicable)
-- Cite relevant related work showing your contribution's novelty<br>
-**4. System Overview** 
+- Cite relevant related work showing your contribution's novelty
+<br>**4. System Overview** 
 - Key algorithms and design decisions
 - Resources used beyond provided training data
 - How you addressed task challenges
