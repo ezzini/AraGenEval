@@ -104,8 +104,8 @@ Focused on two domains:
 - **Salmane Chafik**, Mohammed VI Polytechnic University  
 
 ## 7. Participation Guidelines
-- For participation guidelines, please refer to [Participation Guidelines](guidelines.md).
-- Comprehensive instructions for preparing and submitting your paper(s) are available at [Paper Submission Guidelines](PAPER.md).
+- For participation guidelines, please refer to <a href="guidelines.md" target="_blank">Participation Guidelines</a>.
+- Comprehensive instructions for preparing and submitting your paper(s) are available at <a href="PAPER.md" target="_blank">Paper Submission Guidelines</a>.
 
 ## References
 1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
