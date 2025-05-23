@@ -23,7 +23,7 @@ Brief summary of your paper in a few sentences.
 - How you addressed task challenges
 - Include equations/pseudocode for novel approaches
 - Provide concrete algorithm examples
-- For multiple systems, clearly distinguish each configuration<br>
+- For multiple systems, clearly distinguish each configuration
 #### 5. Experimental Setup
 - Data split usage (train/dev/test)
 - Preprocessing and hyperparameter details for replication
@@ -63,4 +63,3 @@ Low-level details for replication that aren't essential for understanding main c
 **For popular algorithms:** <br> Citation suffices (no need for full mathematical details)
 
 **Space management:** <br> Move detailed parameters/hyperparameters to Appendix if needed
-
