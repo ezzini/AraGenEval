@@ -6,7 +6,6 @@
 ### SHARED TASK PAPER SUBMISSION GUIDELINES
 
 #### Paper Structure (4 pages maximum + unlimited references)
-<br>
 **1. Abstract**
 Brief summary of your paper in a few sentences.
 <br>
