@@ -58,7 +58,9 @@ Low-level details for replication that aren't essential for understanding main c
 ##### Required elements:
 - Cite task overview paper
 - Follow EMNLP templates exactly
-- Use title format: \<Team Name\> at \<Task Name\>: \<Your Contribution\> <br>
-**For popular algorithms:** <br> Citation suffices (no need for full mathematical details)<br>
+- Use title format: \<Team Name\> at \<Task Name\>: \<Your Contribution\>
+
+**For popular algorithms:** <br> Citation suffices (no need for full mathematical details)
+
 **Space management:** <br> Move detailed parameters/hyperparameters to Appendix if needed
 
