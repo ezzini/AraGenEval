@@ -92,15 +92,15 @@ Focused on two domains:
 ## 6. Organizers’ Details
 - **Shadi Abudalfa**, King Fahd University of Petroleum & Minerals  
 - **Saad Ezzini**, King Fahd University of Petroleum & Minerals  
-- **Ahmed Abdelali**, National Center for Artificial Intelligence, Saudi Data & AI Authority  
+- **Ahmed Abdelali**, Saudi Data & AI Authority  
 - **Salima Lamsiyah**, University of Luxembourg  
 - **Hamzah Luqman**, King Fahd University of Petroleum & Minerals  
 - **Mustafa Jarrar**, Hamad Bin Khalifa University / Birzeit University  
-- **Mo El-Haj**, VinUniversity, Vietnam  
+- **Mo El-Haj**, VinUniversity  
 - **Abdelkader Elmahdaouy**, Mohammed VI Polytechnic University  
 - **Hamza Alami**, Sidi Mohamed Ben Abdellah University  
 - **Abdessamad Benlahbib**, Sidi Mohamed Ben Abdellah University  
-- **Salmane Chafik**, Mohammed VI Polytechnic University, Ben Guerir  
+- **Salmane Chafik**, Mohammed VI Polytechnic University  
 
 ## References
 1. Hu et al. “Text style transfer: A review and experimental evaluation.” _ACM SIGKDD Explorations Newsletter_, 24(1), 2022.  
