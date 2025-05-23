@@ -1,3 +1,7 @@
+# **AraGenEval**: Arabic Authorship Style Transfer and AI Generated Text Detection Shared Task 
+
+### Hosted with [The Internation Conference on ArabicNLP 2025](https://arabicnlp2025.sigarab.org/)
+
 ### Guidelines for Participating Teams
 **Q: Who can participate in shared tasks?** <br>
 A: Anyone who wants to can participate, either independently or by forming a team.
