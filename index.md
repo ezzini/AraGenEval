@@ -7,11 +7,9 @@ The rapid expansion of user-generated content across social media, digital news 
 In addition, recent advances in Arabic-based large language models have made it increasingly difficult to distinguish between human-written and AI-generated Arabic content [3]. We believe that Arabic style identification can help detect such content.  
 This shared task seeks to promote research in Arabic AST, an area that remains relatively underdeveloped compared to other languages. Participants will develop models for one or more of the following subtasks:
 
-1) Authorship Style Transfer (Text Generation)
-
-2) Authorship Identification (Multiclass Classification)
- 
-3) AI-Generated Text Detection (Binary Classification) 
+1. Authorship Style Transfer (Text Generation)
+2. Authorship Identification (Multiclass Classification)
+3. AI-Generated Text Detection (Binary Classification) 
 
 ## 2. Motivation
 Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [4, 5] is explored in NLP, the Arabic domain presents distinct challenges:
