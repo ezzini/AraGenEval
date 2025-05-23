@@ -1,6 +1,6 @@
 # **AraGenEval**: Arabic Authorship Style Transfer and AI Generated Text Detection Shared Task 
 
-### Hosted with [The Internation Conference on ArabicNLP 2025](https://arabicnlp2025.sigarab.org/)
+### Hosted with [Arabic Natural Language Processing Conference (ArabicNLP 2025)](https://arabicnlp2025.sigarab.org/)
 
 ### Guidelines for Participating Teams
 **Q: Who can participate in shared tasks?** <br>
