@@ -11,7 +11,7 @@ Brief summary of your paper in a few sentences.
 ##### 2. Introduction
 - Task description and importance; mention language(s) covered; cite task overview paper
 - Your main system strategy
-- Key findings, ranking, challenges discovered; include code URL if available (Highly recommended)<br>
+- Key findings, ranking, challenges discovered; include code URL if available (Highly recommended)
 ##### 3. Background
 - Summarize task setup: input/output types (with examples)
 - Dataset details: language, genre, size
@@ -29,19 +29,19 @@ Brief summary of your paper in a few sentences.
 - Preprocessing and hyperparameter details for replication
 - External tools/libraries (with versions and URLs)
 - Task evaluation metrics summary
-- Put detailed implementation in Appendix if space-limited<br>
+- Put detailed implementation in Appendix if space-limited
 ##### 6. Results
 - Quantitative findings: Official metrics performance and ranking
 - Analysis: Ablations, comparisons, design decisions impact
 - Error analysis: System mistakes, confusion matrices, error types, make sure to provide some examples.
 - Clearly mark which data split used for each analysis
-- Distinguish official vs. post-submission results<br>
+- Distinguish official vs. post-submission results
 ##### 7. Conclusion
-Summary of system, limitations, results, and future work directions.<br>
+Summary of system, limitations, results, and future work directions.
 ##### 8. Acknowledgments
-Thank contributors, grants, anonymous reviewers.<br>
+Thank contributors, grants, anonymous reviewers.
 ##### 9. Appendix
-Low-level details for replication that aren't essential for understanding main concepts.<br>
+Low-level details for replication that aren't essential for understanding main concepts.
 #### Formatting Requirements ⚠️
 ##### Templates and Style
 - Must use: Official EMNLP 2025 (ACL) style templates (LaTeX or Word)
