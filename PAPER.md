@@ -8,7 +8,7 @@
 #### Paper Structure (4 pages maximum + unlimited references)
 **1. Abstract**<br>
 Brief summary of your paper in a few sentences.
-**2. Introduction**
+<br>**2. Introduction**
 - Task description and importance; mention language(s) covered; cite task overview paper
 - Your main system strategy
 - Key findings, ranking, challenges discovered; include code URL if available (Highly recommended)<br>
