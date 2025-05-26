@@ -26,7 +26,7 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 - **Parallelization**: GPT-4o mini2 rephrased selected paragraphs into a standardized formal style; pairs limited to ≤ 1900 tokens.  
 - **Splits**: Train / Test / Validation as shown below.
 
-#### Dataset Statistics (Authors 1–11)
+#### Dataset Statistics
 
 | Id | Author                  | Train | Test | Val |
 |----|-------------------------|------:|-----:|----:|
@@ -41,21 +41,16 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 |(9) | Robert Barr             | 2680  | 512  |  82 |
 |(10)| Salama Moussa           |  984  | 282  | 119 |
 |(11)| Taha Hussein            | 2371  | 534  | 253 |
-
-#### Dataset Statistics (Authors 12–21)
-
-| Id | Author                  | Train | Test | Val |
-|----|-------------------------|------:|-----:|----:|
-|(12)| Abbas M. Al-Aqqad         | 1820  | 499  | 267 |
-|(13)| Abdel Ghaffar Makawi      | 1520  | 464  | 396 |
-|(14)| Gustave Le Bon            | 1515  | 358  | 150 |
-|(15)| Fouad Zakaria             | 1771  | 294  | 125 |
-|(16)| Kamel Kilani              |  399  | 109  |  25 |
-|(17)| Mohamed H. Heikal         | 2627  | 492  | 260 |
-|(18)| Naguib Mahfouz            | 1630  | 343  | 327 |
-|(19)| Nawal El Saadawi          | 1415  | 382  | 295 |
-|(20)| William Shakespeare       | 1236  | 358  | 238 |
-|(21)| Yusuf Idris               | 1140  | 349  | 120 |
+|(12)| Abbas M. Al-Aqqad       | 1820  | 499  | 267 |
+|(13)| Abdel Ghaffar Makawi    | 1520  | 464  | 396 |
+|(14)| Gustave Le Bon          | 1515  | 358  | 150 |
+|(15)| Fouad Zakaria           | 1771  | 294  | 125 |
+|(16)| Kamel Kilani            |  399  | 109  |  25 |
+|(17)| Mohamed H. Heikal       | 2627  | 492  | 260 |
+|(18)| Naguib Mahfouz          | 1630  | 343  | 327 |
+|(19)| Nawal El Saadawi        | 1415  | 382  | 295 |
+|(20)| William Shakespeare     | 1236  | 358  | 238 |
+|(21)| Yusuf Idris             | 1140  | 349  | 120 |
 
 ### 3.2 AI-Text Detection (Subtask 3)
 - **Human-Written Texts**: Collected from reputable Arabic news sites and verified literary sources; manually curated.  
