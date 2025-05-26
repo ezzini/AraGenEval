@@ -55,7 +55,7 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 |(18)| Naguib Mahfouz            | 1630  | 343  | 327 |
 |(19)| Nawal El Saadawi          | 1415  | 382  | 295 |
 |(20)| William Shakespeare       | 1236  | 358  | 238 |
-|(21)|| Yusuf Idris               | 1140  | 349  | 120 |
+|(21)| Yusuf Idris               | 1140  | 349  | 120 |
 
 ### 3.2 AI-Text Detection (Subtask 3)
 - **Human-Written Texts**: Collected from reputable Arabic news sites and verified literary sources; manually curated.  
