@@ -28,19 +28,19 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 
 #### Dataset Statistics (Authors 1–11)
 
-| Author                  | Train | Test | Val |
-|-------------------------|------:|-----:|----:|
-| Ahmed Amin              | 2892  | 594  | 246 |
-| Ahmed Taymour Pasha     |  804  | 142  |  53 |
-| Ahmed Shawqi            |  596  |  46  |  58 |
-| Ameen Rihani            | 1557  | 624  | 142 |
-| Tharwat Abaza           |  755  | 191  |  90 |
-| Gibran Khalil Gibran    |  748  | 240  |  30 |
-| Jurji Zaydan            | 2762  | 562  | 326 |
-| Hassan Hanafi           | 3735  |1002  | 548 |
-| Robert Barr             | 2680  | 512  |  82 |
-| Salama Moussa           |  984  | 282  | 119 |
-| Taha Hussein            | 2371  | 534  | 253 |
+| Id | Author                  | Train | Test | Val |
+|----|-------------------------|------:|-----:|----:|
+|(1) | Ahmed Amin              | 2892  | 594  | 246 |
+|(2) | Ahmed Taymour Pasha     |  804  | 142  |  53 |
+|(3) | Ahmed Shawqi            |  596  |  46  |  58 |
+|(4) | Ameen Rihani            | 1557  | 624  | 142 |
+|(5) | Tharwat Abaza           |  755  | 191  |  90 |
+|(6) | Gibran Khalil Gibran    |  748  | 240  |  30 |
+|(7) | Jurji Zaydan            | 2762  | 562  | 326 |
+|(8) | Hassan Hanafi           | 3735  |1002  | 548 |
+|(9) | Robert Barr             | 2680  | 512  |  82 |
+|(10)| Salama Moussa           |  984  | 282  | 119 |
+|(11)| Taha Hussein            | 2371  | 534  | 253 |
 
 #### Dataset Statistics (Authors 12–21)
 
