@@ -76,7 +76,7 @@ Focused on two domains:
 - **Evaluation**: F1-Score (primary), Accuracy (secondary).
 
 ## 5. Tentative Timeline
-- **June 1, 2025**: Release of training data  
+- **June 10, 2025**: Release of training data  
 - **July 20, 2025**: Release of test data  
 - **July 25, 2025**: End of evaluation cycle (test submissions close)  
 - **July 30, 2025**: Final results released  
