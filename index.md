@@ -61,7 +61,7 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 
 ### 4.1 Subtask 1: Authorship Style Transfer
 - **Goal**: Transform a formal input text into the style of a specified author while preserving semantics.  
-- **Evaluation**: BLEU (primary), chrf (secondary).
+- **Evaluation**: BLEU (primary), chrF (secondary).
 
 ### 4.2 Subtask 2: Authorship Identification
 - **Goal**: Identify the author of a given text excerpt across diverse genres and periods.  
