@@ -61,11 +61,11 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 
 ### 4.1 Subtask 1: Authorship Style Transfer
 - **Goal**: Transform a formal input text into the style of a specified author while preserving semantics.  
-- **Evaluation**: BLEU, CHRF, COMET, BERTScore F1.
+- **Evaluation**: BLEU (primary), chrf (secondary).
 
 ### 4.2 Subtask 2: Authorship Identification
 - **Goal**: Identify the author of a given text excerpt across diverse genres and periods.  
-- **Evaluation**: Macro-F1, Accuracy.
+- **Evaluation**: Macro-F1 (primary), Accuracy (secondary).
 
 ### 4.3 Subtask 3: AI-Generated Text Detection
 Focused on two domains:
