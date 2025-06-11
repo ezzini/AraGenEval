@@ -9,7 +9,7 @@ This shared task seeks to promote research in Arabic AST, an area that remains r
 
 1. Authorship Style Transfer (Text Generation) <br>
 2. Authorship Identification (Multiclass Classification) <br>
-3. AI-Generated Text Detection (Binary Classification) 
+3. ARATECT: Arabic AI-Generated Text Detection (Binary Classification) 
 
 ## 2. Motivation
 Authorship style transfer and AI-generated text detection can be applied in various domains, including education, cultural adaptation, and social media content generation. The motivation for launching this shared task arises from the increasing presence of Arabic-language discussions on various socio-political and technological topics. Although authorship style transfer [4, 5] is explored in NLP, the Arabic domain presents distinct challenges:
@@ -52,7 +52,7 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 |(20)| William Shakespeare     | 1236  | 358  | 238 |
 |(21)| Yusuf Idris             | 1140  | 349  | 120 |
 
-### 3.2 AI-Text Detection (Subtask 3)
+### 3.2 ARATECT: Arabic AI-Generated Text Detection (Subtask 3)
 - **Human-Written Texts**: Collected from reputable Arabic news sites and verified literary sources; manually curated.  
 - **AI-Generated Texts**: Produced using Arabic-compatible LLMs (e.g., Mistral, GPT-4, LLaMA) under diverse prompting strategies.  
 - **Annotation**: Binary labels (human vs. AI) with domain coverage across news and literature.
@@ -67,12 +67,10 @@ Our goal is to inspire researchers to tackle these challenges and enhance style 
 - **Goal**: Identify the author of a given text excerpt across diverse genres and periods.  
 - **Evaluation**: Macro-F1 Score (primary), Accuracy (secondary).
 
-### 4.3 Subtask 3: AI-Generated Text Detection
-Focused on two domains:
-1. **Arabic News Text Detection (ArabicNewsGen)**
+### 4.3 Subtask 3:ARATECT
+Focuses on one main domains:
+- **Arabic News Text Detection (ArabicNewsGen)**
    - Full-length articles and short excerpts; genres include politics, economy, technology, sports.  
-2. **Arabic Literature Text Detection (ArabicLitGen)**
-   - Literary forms, especially poetry; diverse stylistic and genre expressions.  
 - **Evaluation**: F1-Score (primary), Accuracy (secondary).
 
 ## 5. Tentative Timeline
