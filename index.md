@@ -1,6 +1,6 @@
 # **AraGenEval**: Arabic Authorship Style Transfer and AI Generated Text Detection Shared Task 
 
-### Hosted with [Arabic Natural Language Processing Conference (ArabicNLP 2025)](https://arabicnlp2025.sigarab.org/)
+### Hosted with [Arabic Natural Language Processing Conference (ArabicNLP 2025)](https://arabicnlp2025.sigarab.org)
 
 ## 1. Overview of the Shared Task
 The rapid expansion of user-generated content across social media, digital news platforms, and online communication has created a growing demand for sophisticated Natural Language Processing (NLP) techniques to analyze and manipulate writing styles. Unlike general text style analysis [1], which focuses on broad linguistic features, **Authorship Style Transfer (AST)** aims to transform a given text to match the distinctive writing style of a specific author while preserving its original meaning [2]. This contrasts with traditional stylistic analysis, where the goal is to identify and characterize an author’s style rather than actively modify text to conform to it.  
@@ -122,7 +122,7 @@ Focuses on one main domains:
 
 ### Stay Updated
 - Official **GitHub Repository**: https://github.com/ezzini/AraGenEval
-- Join our **Slack community**: [To be announced]
+- Join our [**Slack community**] (https://join.slack.com/t/arabicnlp2025-oqe5144/shared_invite/zt-39zsj6k6o-LP09lFRhLNuuHzkyahNRxw)
 - Follow the latest **announcements and updates** on this page!
 
 ### Anti-Harassment policy
