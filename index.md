@@ -122,7 +122,7 @@ Focuses on one main domains:
 
 ### Stay Updated
 - Official **GitHub Repository**: https://github.com/ezzini/AraGenEval
-- Join our [Slack community] (https://join.slack.com/t/arabicnlp2025-oqe5144/shared_invite/zt-39zsj6k6o-LP09lFRhLNuuHzkyahNRxw)
+- Join our [Slack community](https://join.slack.com/t/arabicnlp2025-oqe5144/shared_invite/zt-39zsj6k6o-LP09lFRhLNuuHzkyahNRxw)
 - Follow the latest **announcements and updates** on this page!
 
 ### Anti-Harassment policy
