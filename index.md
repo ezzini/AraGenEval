@@ -123,6 +123,7 @@ Focuses on one main domains:
 ### Stay Updated
 - Official **GitHub Repository**: https://github.com/ezzini/AraGenEval
 - Join our [Slack community](https://join.slack.com/t/arabicnlp2025-oqe5144/shared_invite/zt-39zsj6k6o-LP09lFRhLNuuHzkyahNRxw)
+
 ### Announcements and Updates
 - The final phase will begin on July 20, 2025 (UTC-12h) and will run for 5 days, ending on July 25, 2025 (UTC-12h). During this time, each team must submit their predictions on the test set (not the validation set) via the Codabench system. Only submissions made within this timeframe will be considered as official contributions when submitting your papers to the OpenReview system.
 - The main content of your paper should not exceed 4 pages. There is no page limit on appendices and references; these sections are excluded from the 4-page limit.
