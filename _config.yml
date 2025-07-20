@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: "https://forms.gle/JsBXRhWaoU9W2GgR6"
-  repository_name: "Register Now"
+  repository_name: "Registration Closed"
 markdown:
   kramdown:
     auto_ids: false  # This disables automatic heading IDs
