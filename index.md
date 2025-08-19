@@ -78,7 +78,7 @@ Focuses on one main domains:
 - **July 20, 2025**: Release of test data  
 - **July 25, 2025**: End of evaluation cycle (test submissions close)  
 - **July 30, 2025**: Final results released  
-- **August 15, 2025**: Shared task papers due date  
+- **August 22, 2025**: Shared task papers due date  
 - **August 25, 2025**: Notification of acceptance  
 - **September 5, 2025**: Camera-ready versions due  
 - **November 5–9, 2025**: Main Conference
