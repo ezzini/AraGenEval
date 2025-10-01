@@ -86,7 +86,7 @@ Focuses on one main domains:
 ## 6. Organizers’ Details
 - **Shadi Abudalfa**, King Fahd University of Petroleum & Minerals  
 - **Saad Ezzini**, King Fahd University of Petroleum & Minerals  
-- **Ahmed Abdelali**, Saudi Data & AI Authority  
+- **Ahmed Abdelali**, HUMAIN  
 - **Salima Lamsiyah**, University of Luxembourg  
 - **Hamzah Luqman**, King Fahd University of Petroleum & Minerals  
 - **Mustafa Jarrar**, Hamad Bin Khalifa University / Birzeit University  
